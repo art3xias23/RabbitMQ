@@ -49,6 +49,8 @@ using System.Threading;
 
                             Console.WriteLine("[x] Done");
 
+
+                            //Regarding Message acknowledgements, delivery tag is the number of aknowledgement
                             channel.BasicAck(deliveryTag: ea.DeliveryTag, multiple: false);
                         };
 

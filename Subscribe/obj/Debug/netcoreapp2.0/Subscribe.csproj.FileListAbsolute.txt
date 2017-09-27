@@ -1,0 +1,10 @@
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\bin\Debug\netcoreapp2.0\Subscribe.deps.json
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\bin\Debug\netcoreapp2.0\Subscribe.runtimeconfig.json
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\bin\Debug\netcoreapp2.0\Subscribe.runtimeconfig.dev.json
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\bin\Debug\netcoreapp2.0\Subscribe.dll
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\bin\Debug\netcoreapp2.0\Subscribe.pdb
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\obj\Debug\netcoreapp2.0\Subscribe.csproj.CoreCompileInputs.cache
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\obj\Debug\netcoreapp2.0\Subscribe.AssemblyInfoInputs.cache
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\obj\Debug\netcoreapp2.0\Subscribe.AssemblyInfo.cs
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\obj\Debug\netcoreapp2.0\Subscribe.dll
+C:\Users\kmilchev\Desktop\RabbitMQ\Subscribe\obj\Debug\netcoreapp2.0\Subscribe.pdb
