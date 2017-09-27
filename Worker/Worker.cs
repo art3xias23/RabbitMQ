@@ -28,7 +28,8 @@ using System.Threading;
                                              autoDelete: false,
                                              arguments: null);
 
-// channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+                //Will send a message to free workers and will not bombard one after the other.
+                    channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 
                 Console.WriteLine(" [*] Waiting for messages.");
 
