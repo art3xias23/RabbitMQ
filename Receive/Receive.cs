@@ -3,10 +3,6 @@ using RabbitMQ.Client.Events;
 using System;
 using System.Text;
 
-
-
-
-
     class Receive
     {
         public static void Main()
@@ -34,7 +30,7 @@ using System.Text;
                     };
 
                     channel.BasicConsume(queue: "hello",
-                                         autoAck: true,
+                                         autoAck: true, //true if the server should consider messages acknowledged once delivered; false if the server should expect explicit acknowledgements
                                          consumer: consumer);
 
                     Console.WriteLine("Press [enter] to exit.");
