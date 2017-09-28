@@ -14,6 +14,8 @@ class EmitLogs
 
             channel.ExchangeDeclare(exchange: "logs", type: "fanout");
 
+            
+
             //If this is not declared we get a randomly generated name, non-durable, exclusive, autodelete 
 
 

@@ -25,7 +25,7 @@ class ReceiveLogs
                                 routingKey: "");
 
                 //Will send a message to free workers and will not bombard one after the other.
-                channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
+                //channel.BasicQos(prefetchSize: 0, prefetchCount: 1, global: false);
 
                 Console.WriteLine(" [*] Waiting for logs.");
 
@@ -52,7 +52,7 @@ class ReceiveLogs
                 };
 
                 channel.BasicConsume(
-                                     queue: "task_queue",
+                                     queue: queueName,
                                      autoAck: true,
                                      consumer: consumer);
 
