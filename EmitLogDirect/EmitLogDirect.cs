@@ -3,12 +3,13 @@ using RabbitMQ;
 using RabbitMQ.Client;
 using RabbitMQ.Client.Events;
 using System.Text;
+using System.Linq;
 
 
 
 class EmitLogDirect
 {
-    static void Main(string[] args)
+    public static void Main(string[] args)
     {
         var factory = new ConnectionFactory() { HostName = "localhost" };
         using (var connection = factory.CreateConnection())
@@ -20,7 +21,7 @@ class EmitLogDirect
 
                 var severity = (args.Length > 0) ? args[0] : "info"; 
 
-                var message = (args.Length > 1) ? args.Join(" ").Skip(1).ToArray()) : "Hello World!";
+                var message = (args.Length > 1) ? string.Join(" ", args.Skip( 1 ).ToArray()) : "Hello World!";
 
                 var body = Encoding.UTF8.GetBytes(message);
 
