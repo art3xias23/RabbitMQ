@@ -1,0 +1,3 @@
+C:\Users\kmilchev\Desktop\RabbitMQ\EmitLogDirect\obj\Debug\netcoreapp2.0\EmitLogDirect.csproj.CoreCompileInputs.cache
+C:\Users\kmilchev\Desktop\RabbitMQ\EmitLogDirect\obj\Debug\netcoreapp2.0\EmitLogDirect.AssemblyInfoInputs.cache
+C:\Users\kmilchev\Desktop\RabbitMQ\EmitLogDirect\obj\Debug\netcoreapp2.0\EmitLogDirect.AssemblyInfo.cs
